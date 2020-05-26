@@ -85,6 +85,8 @@ docker-compose up -d
 
 ## Known issues / improvements
 
+Here is a list of future enhancements and what could be fixed:
+
 - currently all objects put through S3 interface are created/updated with `public-read` ACL
 - it is only possible for both interfaces to deal with text files (both put and get operations)
 - unit tests are not implemented with a virtual filesystem mocking module (like `vfsStream`) for `LocalFileSystem` class
